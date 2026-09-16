@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Captcha Form</title>
+    <title>Registration Form</title>
 </head>
 <body style="text-align:center; background-color:lightgray;">
-    <h2>Infosys Regestration Form</h2>
-    <form>
+    <h2>Infosys Registration Form</h2>
+    <form autoComplete="on">
         <fieldset>
             <legend>College Information</legend>
             <br>
@@ -34,6 +34,12 @@
         <input type="number" id="ul" required title><br><br>
         <label for="us">Academic gap:</label>
         <input type="number" id="us" required title><br><br>
+        <label for="ul">Upload Photo:</label>
+        <input type="file" id="ul" required title><br><br>
+        <label for="uj">Date of Birth:</label>
+        <input type="date" id="uj" required title><br><br>
+        <label for="uo">LinkedIn Profile:</label>
+        <input type="url" id="uo" required title><br><br>
         </fieldset>
          <br>
          <br>
@@ -76,9 +82,9 @@
         <fieldset>
             <legend>Other Details</legend><br>
         <label>Gender:</label> <br><br>
-        <input type="radio" name="option" value="Male">Male<br><br>
-        <input type="radio" name="option" value="Female">Female<br><br>
-        <input type="radio" name="option" value="Other">Other<br><br>
+        <input type="radio" name="option" value="Male">Male
+        <input type="radio" name="option" value="Female">Female
+        <input type="radio" name="option" value="Other">Other
         </fieldset> <br><br>       
          <input type="submit">  &nbsp; &nbsp; &nbsp; 
         <button type="reset">Cancel</button>
